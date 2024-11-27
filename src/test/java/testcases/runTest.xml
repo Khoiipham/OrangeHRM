@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+    <listeners>
+        <listener class-name="reportpack.ExtendReportManager"/>
+    </listeners>
+    <test name="sample test">
+        <classes>
+            <class name="testcases.OrangeTest">
+            </class>
+        </classes>
+    </test>
+</suite>
